@@ -5,8 +5,8 @@ vim viewdoc plugin configuration for viewing clojure documentation.
 ## Dependancies
 
 Please make sure these are installed.
- - (vim)[https://github.com/vim/vim]
- - (lein)[https://github.com/technomancy/leiningen]
+ - [vim](https://github.com/vim/vim)
+ - [lein](https://github.com/technomancy/leiningen)
 
 ## Installation
 
