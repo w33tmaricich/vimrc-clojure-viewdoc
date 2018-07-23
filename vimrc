@@ -11,7 +11,6 @@ let g:viewdoc_clj_cmd = "lein exec -ep \"(use 'clojure.repl) (doc "
 let g:viewdoc_clj_cmd_post = ")\""
 function s:ViewDoc_clojure(topic, filetype, synid, have_context)
 	let h = { "ft": "clojure" }
-	"let escapetopic = shellescape(a:topic, 1)
 	let h.topic = a:topic
 	let h.cmd = printf('%s%s%s', g:viewdoc_clj_cmd, a:topic, g:viewdoc_clj_cmd_post)
 	return h

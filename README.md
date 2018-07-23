@@ -5,8 +5,8 @@ vim viewdoc plugin configuration for viewing clojure documentation.
 ## Dependancies
 
 Please make sure these are installed.
- - (vim)[https://github.com/vim/vim]
- - (lein)[https://github.com/technomancy/leiningen]
+ - [vim](https://github.com/vim/vim)
+ - [lein](https://github.com/technomancy/leiningen)
 
 ## Installation
 
@@ -14,7 +14,7 @@ Please make sure these are installed.
    for your plugins. If not, change the inclusion method. If you are using
    Vundle, use a ":PluginInstall" to download and install.
 2. If you don't have any lein plugins already installed, copy `profiles.clj`
-   to `~/.lein/`.
+   to `~/.lein/`. If you do, add only the plugin.
 
 ## Usage
 
